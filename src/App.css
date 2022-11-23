@@ -15,3 +15,43 @@
   text-decoration: none;
   color: white;
 }
+
+.Left{
+  background-color: blueviolet !important;
+   color: white;
+   border-radius: 10px;
+   border-bottom-right-radius: 0px;
+   border-top-right-radius: 0px;
+
+   text-align: left;
+   padding: 30px;
+}
+.Right{
+  padding: 30px;
+  border: 2px solid blueviolet ;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  
+}
+
+.logo{
+  text-decoration: none;
+  color: white;
+  font-size: xx-large;
+  font-weight: bold;
+
+}
+
+.head-el{
+  text-decoration: none !important;
+  color: white;
+
+}
+
+
+.inpu{
+  width: 60%;
+  border-radius: 5px;
+  padding: 5px;
+  border: 2px solid rgb(181, 181, 181);
+}

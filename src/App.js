@@ -9,6 +9,7 @@ import Contact from './Pages/Contact'
 import Footer from './components/Footer';
 import Reviews from './Pages/Reviews'
 import Footer2 from './components/Footer2';
+import Gallery from './Pages/Gallery';
 
 
 
@@ -24,6 +25,8 @@ function App() {
           <Routes>
             <Route path="/" index exact element={<Home></Home>}></Route>
             <Route path="/about" exact element={<About></About>}></Route>
+            <Route path="/gallery" exact element={<Gallery></Gallery>}></Route>
+
             <Route path="/contact" exact element={<Contact></Contact>}></Route>
 
             <Route path="/reviews" exact element={<Reviews></Reviews>}></Route>
