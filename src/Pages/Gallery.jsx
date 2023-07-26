@@ -4,6 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 export default function Gallery() {
   return (
     <div style={{ textAlign: "center" }}>
+      <br />
       <Container>
         <Row>
           <Col>
@@ -12,6 +13,7 @@ export default function Gallery() {
         </Row>
 
         <br />
+        
         <Row>
           <Col>
             <img

@@ -8,7 +8,7 @@ export default function Footer2() {
       <Container>
         <Row>
           <Col>
-            <h5>© 2022 by East India Works. All Rights Reserved.</h5>
+            <h5>© 2023 by Makerspace. All Rights Reserved.</h5>
           </Col>
         </Row>
       </Container>

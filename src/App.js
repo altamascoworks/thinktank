@@ -10,6 +10,9 @@ import Footer from './components/Footer';
 import Reviews from './Pages/Reviews'
 import Footer2 from './components/Footer2';
 import Gallery from './Pages/Gallery';
+import Offer from './Pages/Offer';
+import OurPlans from './Pages/OurPlans';
+import Privacy from './Pages/Privacy';
 
 
 
@@ -31,12 +34,17 @@ function App() {
 
             <Route path="/reviews" exact element={<Reviews></Reviews>}></Route>
 
+            <Route path="/offer" exact element={<Offer></Offer>}></Route>
+
+            <Route path="/plan" exact element={<OurPlans></OurPlans>}></Route>
+
+            <Route path="/privacy" exact element={<Privacy></Privacy>}></Route>
 
 
 
           </Routes>
            <Footer></Footer>
-           <Footer2></Footer2>
+           {/* <Footer2></Footer2> */}
         </div>
       </BrowserRouter>
     </div>
